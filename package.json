@@ -1,19 +1,19 @@
 {
-  "name": "contactbook",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "contact-book-vue",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.13",
+    "bootstrap": "^5.3.5",
+    "uuid": "^9.0.1",
+    "vue": "^3.2.47",
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.2.0"
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9"
   }
 }
